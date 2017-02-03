@@ -1,6 +1,4 @@
---[[Speed Moudues]]
-data.
-
+--[[Speed Modules]]
 data:extend({
 {
 	type = "module",
@@ -237,3 +235,16 @@ data:extend({
 	}	--speed, productivity, consumption, pollution
 }
 })
+
+--[[Changes]]
+data.raw.module['speed-module'].icon = '__more-modules__/graphics/speed-module.png'
+data.raw.module['speed-module-2'].icon = '__more-modules__/graphics/speed-module-2.png'
+data.raw.module['speed-module-3'].icon = '__more-modules__/graphics/speed-module-3.png'
+
+data.raw.module['effectivity-module'].icon = '__more-modules__/graphics/effectivity-module.png'
+data.raw.module['effectivity-module-2'].icon = '__more-modules__/graphics/effectivity-module-2.png'
+data.raw.module['effectivity-module-3'].icon = '__more-modules__/graphics/effectivity-module-3.png'
+
+data.raw.module['productivity-module'].icon = '__more-modules__/graphics/productivity-module.png'
+data.raw.module['productivity-module-2'].icon = '__more-modules__/graphics/productivity-module-2.png'
+data.raw.module['productivity-module-3'].icon = '__more-modules__/graphics/productivity-module-3.png'

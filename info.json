@@ -3,7 +3,7 @@
 	"author":"bigyihsuan",
 	"version":"0.0.1",
 	"title":"More Modules",
-	"description":"A vanilla-like mod for more modules. IN DEVELOPMENT!",
+	"description":"A vanilla-like mod for more modules. Thank you to Bobbingabout for his module graphics. IN DEVELOPMENT!",
 	"dependencies": ["base >= 0.14"],
 	"factorio_version": "0.14"
 }

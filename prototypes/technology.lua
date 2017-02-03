@@ -3,7 +3,7 @@ data:extend({
 {
  	type = "technology",
  	name = "productivity-module-4",
- 	icon = "__base__/graphics/technology/productivity-module.png",
+ 	icon = "__more-modules__/graphics/productivity-module-4.png",
  	effects = {
 		{
   			type = "unlock-recipe",
@@ -28,7 +28,7 @@ data:extend({
 {
  	type = "technology",
  	name = "productivity-module-5",
- 	icon = "__base__/graphics/technology/productivity-module.png",
+ 	icon = "__more-modules__/graphics/productivity-module-5.png",
  	effects = {
 		{
   			type = "unlock-recipe",
@@ -52,15 +52,15 @@ data:extend({
 },
 {
  	type = "technology",
- 	name = "productivity-module-5",
- 	icon = "__base__/graphics/technology/productivity-module.png",
+ 	name = "productivity-module-6",
+ 	icon = "__more-modules__/graphics/productivity-module-6.png",
  	effects = {
 		{
   			type = "unlock-recipe",
-  			recipe = "productivity-module-5"
+  			recipe = "productivity-module-6"
 		}
  	},
- 	prerequisites = {"productivity-module-4"},
+ 	prerequisites = {"productivity-module-5"},
  	unit = {
 		count = 600,
 		ingredients =
@@ -77,15 +77,15 @@ data:extend({
 },
 {
  	type = "technology",
- 	name = "productivity-module-6",
- 	icon = "__base__/graphics/technology/productivity-module.png",
+ 	name = "productivity-module-7",
+ 	icon = "__more-modules__/graphics/productivity-module-7.png",
  	effects = {
 		{
   			type = "unlock-recipe",
-  			recipe = "productivity-module-6"
+  			recipe = "productivity-module-7"
 		}
  	},
- 	prerequisites = {"productivity-module-5"},
+ 	prerequisites = {"productivity-module-6"},
  	unit = {
 		count = 700,
 		ingredients =
@@ -103,7 +103,7 @@ data:extend({
 {
  	type = "technology",
  	name = "productivity-module-8",
- 	icon = "__base__/graphics/technology/productivity-module.png",
+ 	icon = "__more-modules__/graphics/productivity-module-8.png",
  	effects = {
 		{
   			type = "unlock-recipe",
@@ -132,7 +132,7 @@ data:extend({
 {
  	type = "technology",
  	name = "effectivity-module-4",
- 	icon = "__base__/graphics/technology/effectivity-module.png",
+ 	icon = "__more-modules__/graphics/effectivity-module-4.png",
  	effects = {
 		{
   			type = "unlock-recipe",
@@ -157,7 +157,7 @@ data:extend({
 {
  	type = "technology",
  	name = "effectivity-module-5",
- 	icon = "__base__/graphics/technology/effectivity-module.png",
+ 	icon = "__more-modules__/graphics/effectivity-module-5.png",
  	effects = {
 		{
   			type = "unlock-recipe",
@@ -181,15 +181,15 @@ data:extend({
 },
 {
  	type = "technology",
- 	name = "effectivity-module-5",
- 	icon = "__base__/graphics/technology/effectivity-module.png",
+ 	name = "effectivity-module-6",
+ 	icon = "__more-modules__/graphics/effectivity-module-6.png",
  	effects = {
 		{
   			type = "unlock-recipe",
-  			recipe = "effectivity-module-5"
+  			recipe = "effectivity-module-6"
 		}
  	},
- 	prerequisites = {"effectivity-module-4"},
+ 	prerequisites = {"effectivity-module-5"},
  	unit = {
 		count = 600,
 		ingredients =
@@ -206,15 +206,15 @@ data:extend({
 },
 {
  	type = "technology",
- 	name = "effectivity-module-6",
- 	icon = "__base__/graphics/technology/effectivity-module.png",
+ 	name = "effectivity-module-7",
+ 	icon = "__more-modules__/graphics/effectivity-module-7.png",
  	effects = {
 		{
   			type = "unlock-recipe",
-  			recipe = "effectivity-module-6"
+  			recipe = "effectivity-module-7"
 		}
  	},
- 	prerequisites = {"effectivity-module-5"},
+ 	prerequisites = {"effectivity-module-6"},
  	unit = {
 		count = 700,
 		ingredients =
@@ -232,7 +232,7 @@ data:extend({
 {
  	type = "technology",
  	name = "effectivity-module-8",
- 	icon = "__base__/graphics/technology/effectivity-module.png",
+ 	icon = "__more-modules__/graphics/effectivity-module-8.png",
  	effects = {
 		{
   			type = "unlock-recipe",
@@ -256,19 +256,19 @@ data:extend({
 }
 })
 
---[[Productivity Modules]]
+--[[speed Modules]]
 data:extend({
 {
  	type = "technology",
- 	name = "productivity-module-4",
- 	icon = "__base__/graphics/technology/productivity-module.png",
+ 	name = "speed-module-4",
+ 	icon = "__more-modules__/graphics/speed-module-4.png",
  	effects = {
 		{
   			type = "unlock-recipe",
-  			recipe = "productivity-module-4"
+  			recipe = "speed-module-4"
 		}
  	},
- 	prerequisites = {"productivity-module-3"},
+ 	prerequisites = {"speed-module-3"},
  	unit = {
 		count = 400,
 		ingredients =
@@ -285,15 +285,15 @@ data:extend({
 },
 {
  	type = "technology",
- 	name = "productivity-module-5",
- 	icon = "__base__/graphics/technology/productivity-module.png",
+ 	name = "speed-module-5",
+ 	icon = "__more-modules__/graphics/speed-module-5.png",
  	effects = {
 		{
   			type = "unlock-recipe",
-  			recipe = "productivity-module-5"
+  			recipe = "speed-module-5"
 		}
  	},
- 	prerequisites = {"productivity-module-4"},
+ 	prerequisites = {"speed-module-4"},
  	unit = {
 		count = 500,
 		ingredients =
@@ -310,15 +310,15 @@ data:extend({
 },
 {
  	type = "technology",
- 	name = "productivity-module-5",
- 	icon = "__base__/graphics/technology/productivity-module.png",
+ 	name = "speed-module-6",
+ 	icon = "__more-modules__/graphics/speed-module-6.png",
  	effects = {
 		{
   			type = "unlock-recipe",
-  			recipe = "productivity-module-5"
+  			recipe = "speed-module-6"
 		}
  	},
- 	prerequisites = {"productivity-module-4"},
+ 	prerequisites = {"speed-module-5"},
  	unit = {
 		count = 600,
 		ingredients =
@@ -335,15 +335,15 @@ data:extend({
 },
 {
  	type = "technology",
- 	name = "productivity-module-6",
- 	icon = "__base__/graphics/technology/productivity-module.png",
+ 	name = "speed-module-7",
+	icon = "__more-modules__/graphics/speed-module-7.png",
  	effects = {
 		{
   			type = "unlock-recipe",
-  			recipe = "productivity-module-6"
+  			recipe = "speed-module-7"
 		}
  	},
- 	prerequisites = {"productivity-module-5"},
+ 	prerequisites = {"speed-module-6"},
  	unit = {
 		count = 700,
 		ingredients =
@@ -360,15 +360,15 @@ data:extend({
 },
 {
  	type = "technology",
- 	name = "productivity-module-8",
- 	icon = "__base__/graphics/technology/productivity-module.png",
+ 	name = "speed-module-8",
+ 	icon = "__more-modules__/graphics/speed-module-8.png",
  	effects = {
 		{
   			type = "unlock-recipe",
-  			recipe = "productivity-module-8"
+  			recipe = "speed-module-8"
 		}
  	},
- 	prerequisites = {"productivity-module-7"},
+ 	prerequisites = {"speed-module-7"},
  	unit = {
 		count = 800,
 		ingredients =
