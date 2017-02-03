@@ -1,10 +1,26 @@
---[[speed Modules]]
+require('control')
+
+--[[Changes]]
 data.raw.recipe['speed-module-3'].ingredients = {
 	{'advanced-circuit', 5},
 	{'processing-unit', 5},
 	{'speed-module-2', 5},
-	{'alien-artifact', 1}
+	{item, 1}
 }
+data.raw.recipe['effectivity-module-3'].ingredients = {
+	{'advanced-circuit', 5},
+	{'processing-unit', 5},
+	{'speed-module-2', 5},
+	{item, 1}
+}
+data.raw.recipe['productivity-module-3'].ingredients = {
+	{'advanced-circuit', 5},
+	{'processing-unit', 5},
+	{'speed-module-2', 5},
+	{item, 1}
+}
+
+--[[speed Modules]]
 data:extend({
 {
 	type = 'recipe',
@@ -13,7 +29,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'speed-module-3', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'speed-module-4',
 	result_count = 1,
@@ -27,7 +43,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'speed-module-4', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'speed-module-5',
 	result_count = 1,
@@ -41,7 +57,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'speed-module-5', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'speed-module-6',
 	result_count = 1,
@@ -55,7 +71,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'speed-module-6', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'speed-module-7',
 	result_count = 1,
@@ -69,7 +85,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'speed-module-7', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'speed-module-8',
 	result_count = 1,
@@ -87,7 +103,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'effectivity-module-3', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'effectivity-module-4',
 	result_count = 1,
@@ -101,7 +117,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'effectivity-module-4', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'effectivity-module-5',
 	result_count = 1,
@@ -115,7 +131,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'effectivity-module-5', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'effectivity-module-6',
 	result_count = 1,
@@ -129,7 +145,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'effectivity-module-6', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'effectivity-module-7',
 	result_count = 1,
@@ -143,7 +159,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'effectivity-module-7', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'effectivity-module-8',
 	result_count = 1,
@@ -161,7 +177,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'productivity-module-3', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'productivity-module-4',
 	result_count = 1,
@@ -175,7 +191,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'productivity-module-4', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'productivity-module-5',
 	result_count = 1,
@@ -189,7 +205,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'productivity-module-5', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'productivity-module-6',
 	result_count = 1,
@@ -203,7 +219,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'productivity-module-6', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'productivity-module-7',
 	result_count = 1,
@@ -217,7 +233,7 @@ data:extend({
 		{'advanced-circuit', 5},
 		{'processing-unit', 5},
 		{'productivity-module-7', 5},
-		{'alien-artifact', 1}
+		{item, 1}
 	},
 	result = 'productivity-module-8',
 	result_count = 1,
